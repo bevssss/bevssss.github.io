@@ -4,87 +4,164 @@
     <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </script>
-    
+    <link href="css/all.css" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link  rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="style.css" >
 
-    <title>B is for...</title>
-    
-    <style>
-    @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico');
-
-    body{
-      margin:0 0 0 0;
-      padding:0 0 0 0;
-      background: #ffffff;
-    }
-    div.navbar-nav {
-      font-family: 'Pacifico', cursive;
-    }
-      .navbar navbar-expand-lg {
-        position: fixed;
-      }
-     .active a{
-      color: #ffffff;
-      text-decoration: none;
-      
-      }
-      .navbar-nav a{
-        letter-spacing: 3px;
-      }
-      .about{
-        background-image: url(img/color.png);
-        background-size: 100%;
-        background-size: cover;
-        background-position: center;
-      }
-      h1.first{
-        font-family: 'Abril Fatface', cursive;
-        text-align:center;
-        padding:220px;
-        font-size:60px;
-      }
-      h1.second{
-        font-family: 'Abril Fatface', cursive;
-        text-align:center;
-        font-size:60px;
-      }
-    </style>
+    <title>IamBevs</title>
   
   </head>
   
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">B is for...</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="http://beverlyatijera.com/">
+        <img src="img/Pastel-Green-and-White-Framed-Beauty-Logo-6-e1530352983341.png" alt="IamBevs" id="logo" data-height-percentage="100" data-actual-width="495" data-actual-height="122">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="jumbotron.html">HOME<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="carousel.html">ABOUT</a>
-          <a class="nav-item nav-link" href="card.html">WORK</a>
-          <a class="nav-item nav-link" href="forms.html">CONTACT</a>
+          <a class="nav-item nav-link active" href="index2.html">HOME<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#about-me">ABOUT</a>
+          <a class="nav-item nav-link" href="portfolio.html">WORK</a>
+          <a class="nav-item nav-link" href="contact.html">CONTACT</a>
           </div>
         </div>
       </nav>
+  
 
     <div class="about">
-          <h1 class="first">A Coder at Day and Fangirl at Night based in Baguio City, Philippines</h1>
+      <div class="header-desc">
+        <h1>HI! I AM <span>BEVERLY ATIJERA.</span></h1>
+        <h2>
+          Welcome to my portfolio website. I'm an aspiring developer with a passion for building websites that are beautiful, simple and easy. Take a look around. I'm here to help you make your project striking,effective and successful,exciting and awesome! What can I do for you today?
+        </h2>
+       <div class="desc-btn">
+         <a href="#CONTACT">Work with Me!</a>
+       </div>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="port-desc">
+        <h1>SAMPLE PROJECTS/WORKS/WEBSITES</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="details-left">
+            <h1>E-Commerce</h1>
+            <hr>
+            <p>Yumyum is an e-commerce site that combines food and fashion</p>
+            <p><b>Details:</b></p>
+            <p>Website:<a href="http://shop.beverlyatijera.com" target="_blank">Visit Here</a></p>
+            <b>Built with: Javascript,Wordpress</b>
+            
+            
           </div>
+        </div>
+        <div class="col-md-8 portfolio-img">
+          <img src="img/yumyum1.JPG">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 portfolio-img">
+          <img src="img/angular-js-todo.JPG">
+        </div>
+        <div class="col-md-4">
+          <div class="details-right">
+            <h1>Todo List App</h1>
+            <hr>
+            <p><span>Get Things Done</span>  is a todo list app where user can add, delete and update tasks.</p>
+            <p><b>Details:</b></p>
+            <p>Website:<a href="http://htmlpreview.github.io/?https://github.com/bevssss/AngularJS-todo/blob/master/index.html" target="_blank">Visit Here</a></p>
+            <b>Built with: Angular JS</b>
+            <p>Source Code: <a href="https://github.com/bevssss/AngularJS-todo" target="_blank">View on Github</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="details-left">
+            <h1>API Integration</h1>
+            <hr>
+            <p>A partial clone of remote OK site with API integration .</p>
+            <p><b>Details:</b></p>
+            <p><b>Details:</b></p>
+            <p>Website:<a href="http://htmlpreview.github.io/?https://github.com/bevssss/API-Integration/blob/master/apiintegration.html" target="_blank">Visit Here</a></p>
+            <b>Built with: Javascript, JSON</b>
+            <p>Source Code: <a href="https://github.com/bevssss/API-Integration" target="_blank">View on Github</a></p>
+          </div>
+        </div>
+          <div class="col-md-8 portfolio-img">
+            <img src="img/remoteok1.PNG">
+          </div>
+        </div>
+        <div class="portfolio-more">
+          <a href="portfolio.html">See more of my portfolio</a>
+        </div>
+      </div>
 
-    <div></div>
+      <div class="about-me" id="about-me">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="about-desc">
+              <h1>ABOUT ME</h1>
+              <br>
+              <!-- <p>I'm a junior web developer. I build simple but awesome websites.</p>
+              <p>I am also a Licensed Electronics Engineer.</p>
+              <p>When I'm not coding, I search for exciting k-dramas and places I've never been to.
+              </p> -->
+              <h2>
+              I’m a junior web developer. I build simple but awesome websites.
+              <p></p>
+              <p>I am also a Licensed Electronics Engineer. </p>
+              <p>When I’m not coding, I search for exciting k-dramas to watch, as well as places I’ve not yet been to.</p>
+              </h2>
+              <a href="http://beverlyatijera.com/wp-content/uploads/2018/07/BEVERLYATIJERA_RESUME.pdf" target="_blank">See my Resume</a>
+            </div>
+          </div>
+          <div class="col-md-4 aboutme-img">
+            <img src="img/beverlyatijera-aboutme.jpg">
+          </div>
+        </div>
+      </div>
 
+      <div class="contact-links">
+        <p class="fontawesome-icons">
+          <a href="https://linkedin.com/in/beverly-atijera/" target="_blank"><i class="fab fa-linkedin-in fa-4x"></i></a>
+           <a href="https://github.com/bevssss/" target="_blank"><i class="fab fa-github-alt fa-4x"></i></a>
+          <a href="mailto:beverlyatijera@gmail.com"><i class="fas fa-envelope fa-4x"></i></a>
+          <a href="http://beverlyatijera.com/wp-content/uploads/2018/07/BEVERLYATIJERA_RESUME.pdf" target="_blank"><i class="fas fa-file fa-4x"></i></a>
+          <a href="id:aries22bev@yahoo.com"><i class="fab fa-skype fa-4x"></i></a>
+        </p>
+        <p class="contact-location">
+          <span><i class="fas fa-map-marker-alt fa-2x"></i></span>Baguio City Philippines
+          <br>
+          GMT+8
+        </p>
+      </div>
+      <div class="myfooter">
+        <p>© 2018 Beverly Atijera - All Rights Reserved. | Design by: <span><a href="beverlyatijera.com/Home">Beverly</a></span>
+        </p>
+      </div>
       
       
     
 
-
+  <!--  <div class="contact-icons">
+          <a href="">zxzxzx<i class="fab fa-facebook fa-2x"></i></a>
+          <a href="">zxzxzx<i class="fab fa-linkedin-in fa-2x"></i></a>
+          <a href="">zxzxzx<i class="fab fa-github fa-2x"></i></a>
+          <a href="">zxzxzzx<i class="fas fa-globe fa-2x"></i></a>
+        </div> -->
 
 
 
@@ -102,14 +179,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-      
     </script>
-
-
-
-
-
-
-
   </body>
 </html>
